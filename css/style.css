@@ -108,6 +108,10 @@ article a {
   margin-top: 1rem;
 }
 
+article a + a {
+  margin-left: 1.5rem;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -140,4 +144,3 @@ footer {
     gap: 0.5rem;
   }
 }
-
